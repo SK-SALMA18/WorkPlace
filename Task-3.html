@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            html,body {
+                height:100%;
+            }
+            html {
+                display: table;
+                margin: auto;
+                border:1px solid black;
+                background-color:yellowgreen;
+            }    
+            body {
+                display: table-cell;
+                vertical-align: middle;
+            }
+            label {
+                width: 140px;
+                display: inline-block;
+            }
+            h2{
+                text-align: center;
+            }
+            th,td {
+                border-style: outset;
+            }
+            th,td {
+                background-color: white;
+            }
+            table.center {
+                margin-inline-end: auto;
+                margin-left:100px;
+            }
+            iframe {
+                align-content: baseline;
+                text-align: right;
+            }
+        </style>
+    </head>
+<body style="background-color:blueviolet;">
+<h2 style="background-color: white;"><b><u>STUDENT REGISTRATION FORM</u></b></h2></h1>
+<!--<iframe src="file:///C:/Users/salma%20shaik/Documents/WorkPlace/Task-3.html" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>-->
+<form action="/action_page.php">
+<label for="fname">FIRST NAME  </label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">LAST NAME  </label>
+<input type="text" id="lname" name="lname"><br><br>
+<label for="dob">DATE OF BIRTH  </label>
+<input type="date" id="dob" name="dob"><br><br>
+<label for="email">Email  </label>
+<input type="email" id="email" name="email"><br><br>
+<label for="phone">Phone Number </label>
+<input type="tel" id="phone" name="phone" placeholder="1234567890"><br><br>
+<label for="Gender">Gender </label>
+<input type="radio" name="Gender">Male 
+<input type="radio" name="Gender">Female<br><br>
+<label for="address">ADDRESS</label>
+<textarea id="Address" name="address" rows="5" cols="50"></textarea><br><br>
+<label for="city">CITY </label>
+<input type="text" id="city" name="city"><br><br>
+<label for="pincode">PINCODE  </label>
+<input type="text" id="pincode" name="pincode"><br><br>
+<label for="state">STATE </label>
+<input type="text" id="state" name="state"><br><br>
+<label for="country">COUNTRY  </label>
+<input type="text" id="country" name="country"><br><br>
+<label for="checkbox">HOBBIES</label>
+<input type="checkbox"Cooking>Cooking
+<input type="checkbox"Reading>Reading
+<input type="checkbox"Dancing>Dancing
+<input type="checkbox"Singing>Singing
+<input type="checkbox"Others>Others<br><br>
+<label for="Qua">Qualification</label>
+<table class="center">
+    <tr>
+        <th>S.no</th>
+        <th>Examination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Masters</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>B.Tech</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>CLASS XII</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>CLASS X</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table><br><br>
+<label for="course">COURSE APPLIED FOR </label>
+<input type="radio" name="B.Tech">B.Tech
+<input type="radio" name="B.com">B.com 
+<input type="radio" name="Arts">Arts
+<input type="radio" name="Commerce">Commerce<br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>
